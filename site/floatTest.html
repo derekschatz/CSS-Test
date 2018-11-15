@@ -5,48 +5,45 @@
 	<title>Floating Elements</title>
 
 	<style>
+
+		*{
+			box-sizing: border-box;
+		}
 		div{
-			background-color: #00FFFF;
+			/* background-color: #00FFFF; */
 		}
 
 		p{
-			width: 50px;
-			height: 50px;
-			border: 1px solid black;
+
+			width: 50%;
+			/* border: 1px solid black; */
 			float: left;
-			margin-right: 10px;
+			padding: 10px;
 		}
 
 		#p1{
-			background-color: #0000ff;
+			/* background-color: #0000ff; */
+
 		}
 
 		#p2{
-			background-color: #fc02ff;
-		}
+			/* background-color: #fc02ff; */
+			width: 50%;
 
-		#p3{
-			background-color: #80007f;
-		}
-
-		#p4{
-			background-color: #fc0107;
 		}
 
 		section{
-			clear: left;
+			clear: both;
 		}
 
 	</style>
 </head>
 <body>
-	<h1>Floating Elements</h1>
+	<h1>Two Column Display</h1>
 
 	<div>
-		<p id="p1"></p>
-		<p id="p2"></p>
-		<p id="p3"></p>
-		<p id="p4"></p>
+		<p id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem eveniet doloribus dolorum veritatis voluptate culpa veniam sed iste autem totam asperiores pariatur repudiandae quos, magnam ipsum. Vel itaque vero odio.</p>
+		<p id="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti veritatis unde dignissimos, ad. Aspernatur aut ipsam, ex, delectus, reiciendis quia atque possimus autem quasi magni excepturi voluptate et, recusandae saepe?</p>
 		<section>This is regular content continuing after the paragraph boxes.</section>
 	</div>
 
