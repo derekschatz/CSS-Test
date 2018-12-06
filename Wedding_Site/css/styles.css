@@ -1,0 +1,44 @@
+h1{
+	text-align: center;
+	margin-top: 40px;
+	font-size: 70px;
+	
+}
+
+body{
+	font-family: 'Great Vibes', cursive;
+	background-color: #a3a3a3;
+}
+
+.menu-bar li{
+	padding-left: 5px;
+	font-size: 20px;
+}
+
+.menu-bar li a{
+	text-decoration: none;
+	color: black;
+}
+
+.menu-bar li a:hover{
+	text-decoration: underline;
+}
+li:after {
+    content: '\00B7';
+    padding-left: 15px;
+    position: absolute;
+    top: 14px;
+    right: 8px;
+}
+
+#Menu-Bar{
+	text-align: center;
+}
+
+
+#homepage-img{
+	width: 850px;
+
+
+}
+
